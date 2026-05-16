@@ -1,0 +1,11 @@
+Letakkan foto background hero di folder ini dengan nama:
+
+    hero-bg.jpg
+
+Rekomendasi gambar:
+- Ukuran minimal: 1920 x 1080 px
+- Format: JPG atau PNG
+- Tema: foto kota, teknologi, bisnis, atau laptop/workspace
+- Gambar akan otomatis muncul sebagai background hero section
+
+Tanpa gambar: hero tetap tampil dengan gradient biru navy yang sudah ada.

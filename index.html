@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suar Teknologi Inovasi | Jasa Pembuatan Aplikasi Profesional</title>
+    <meta name="description" content="Jasa pembuatan aplikasi kantor dan web profesional. Saya siap membantu mewujudkan aplikasi impian Anda dengan kualitas terbaik.">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+        <a href="#home" class="nav-logo">
+            <img src="logo.png" alt="Suar Teknologi Inovasi" class="logo-img">
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link lang-text" data-id="Beranda" data-en="Home">Beranda</a></li>
+            <li><a href="#services" class="nav-link lang-text" data-id="Layanan" data-en="Services">Layanan</a></li>
+            <li><a href="#portfolio" class="nav-link lang-text" data-id="Portfolio" data-en="Portfolio">Portfolio</a></li>
+            <li><a href="#pricing" class="nav-link lang-text" data-id="Harga" data-en="Pricing">Harga</a></li>
+            <li><a href="#contact" class="nav-link lang-text" data-id="Kontak" data-en="Contact">Kontak</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="lang-toggle" id="langToggle" onclick="toggleLang()">
+                <span id="langLabel">EN</span>
+            </button>
+            <a href="#contact" class="btn btn-primary nav-cta lang-text" data-id="Konsultasi Gratis" data-en="Free Consultation">Konsultasi Gratis</a>
+            <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- ====== HERO ====== -->
+<section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-shapes" aria-hidden="true">
+        <div class="hs hs-1"></div>
+        <div class="hs hs-2"></div>
+        <div class="hs hs-3"></div>
+        <div class="hs hs-4"></div>
+        <div class="hs hs-5"></div>
+    </div>
+    <div class="container hero-content">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="lang-text" data-id="Developer Freelance Profesional" data-en="Professional Freelance Developer">Developer Freelance Profesional</span>
+        </div>
+        <h1 class="hero-title">
+            <span class="lang-text" data-id="Hai! Saya Siap Bantu" data-en="Hi! I'm Here to Help">Hai! Saya Siap Bantu</span><br>
+            <span class="gradient-text lang-text" data-id="Wujudkan Aplikasi Anda" data-en="Build Your Application">Wujudkan Aplikasi Anda</span>
+        </h1>
+        <p class="hero-sub lang-text"
+            data-id="Saya siap membantu Anda — para pelaku usaha, UMKM, agen, dan penjual personal — untuk mengembangkan jualan produk &amp; jasa melalui aplikasi yang powerful, modern, dan mudah digunakan."
+            data-en="I'm here to help you — business owners, SMEs, agents, and personal sellers — grow your product &amp; service sales through powerful, modern, and easy-to-use applications.">
+            Saya siap membantu Anda — para pelaku usaha, UMKM, agen, dan penjual personal — untuk mengembangkan jualan produk &amp; jasa melalui aplikasi yang powerful, modern, dan mudah digunakan.
+        </p>
+        <div class="hero-cta">
+            <a href="#contact" class="btn btn-accent btn-lg lang-text" data-id="Mulai Proyek" data-en="Start a Project">Mulai Proyek</a>
+            <a href="#portfolio" class="btn btn-ghost btn-lg lang-text" data-id="Lihat Portfolio" data-en="View Portfolio">Lihat Portfolio</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-num">50+</span>
+                <span class="stat-label lang-text" data-id="Proyek Selesai" data-en="Projects Done">Proyek Selesai</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num">30+</span>
+                <span class="stat-label lang-text" data-id="Klien Puas" data-en="Happy Clients">Klien Puas</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num">20+</span>
+                <span class="stat-label lang-text" data-id="Tahun Pengalaman" data-en="Years Experience">Tahun Pengalaman</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num">99%</span>
+                <span class="stat-label lang-text" data-id="Kepuasan Klien" data-en="Client Satisfaction">Kepuasan Klien</span>
+            </div>
+        </div>
+    </div>
+    <div class="hero-scroll-hint">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    </div>
+</section>
+
+<!-- ====== SERVICES ====== -->
+<section class="section services" id="services">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag lang-text" data-id="Layanan Saya" data-en="My Services">Layanan Saya</span>
+            <h2 class="section-title lang-text" data-id="Apa yang Saya Tawarkan" data-en="What I Offer">Apa yang Saya Tawarkan</h2>
+            <p class="section-sub lang-text"
+                data-id="Saya menyediakan solusi teknologi lengkap mulai dari pengembangan aplikasi hingga konsultasi IT untuk memenuhi kebutuhan bisnis Anda."
+                data-en="I provide complete technology solutions from application development to IT consulting to meet your business needs.">
+                Saya menyediakan solusi teknologi lengkap mulai dari pengembangan aplikasi hingga konsultasi IT untuk memenuhi kebutuhan bisnis Anda.
+            </p>
+        </div>
+        <div class="services-grid">
+
+            <div class="service-card reveal" style="--card-accent:#3B82F6">
+                <div class="service-icon" style="background:rgba(59,130,246,0.12);color:#3B82F6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                    </svg>
+                </div>
+                <h3 class="lang-text" data-id="Aplikasi Web" data-en="Web Application">Aplikasi Web</h3>
+                <p class="lang-text"
+                    data-id="Website dan aplikasi web modern yang responsif, cepat, dan aman. Dari landing page hingga sistem manajemen kompleks."
+                    data-en="Modern, responsive, fast, and secure websites and web applications. From landing pages to complex management systems.">
+                    Website dan aplikasi web modern yang responsif, cepat, dan aman. Dari landing page hingga sistem manajemen kompleks.
+                </p>
+                <ul class="service-features">
+                    <li>Company Profile</li><li>E-Commerce</li><li>Web Portal</li><li>Dashboard Admin</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal" style="--card-accent:#F97316">
+                <div class="service-icon" style="background:rgba(249,115,22,0.12);color:#F97316">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 3H8a2 2 0 00-2 2v2h12V5a2 2 0 00-2-2z"/>
+                        <path d="M12 12v5M9.5 14.5l2.5-2.5 2.5 2.5"/>
+                    </svg>
+                </div>
+                <h3 class="lang-text" data-id="Aplikasi Kantor" data-en="Office Application">Aplikasi Kantor</h3>
+                <p class="lang-text"
+                    data-id="Sistem manajemen kantor yang terintegrasi untuk meningkatkan produktivitas dan efisiensi operasional bisnis Anda."
+                    data-en="Integrated office management systems to increase the productivity and operational efficiency of your business.">
+                    Sistem manajemen kantor yang terintegrasi untuk meningkatkan produktivitas dan efisiensi operasional bisnis Anda.
+                </p>
+                <ul class="service-features">
+                    <li>HR Management</li><li>Inventory System</li><li>Payroll &amp; Accounting</li><li>POS System</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal" style="--card-accent:#10B981">
+                <div class="service-icon" style="background:rgba(16,185,129,0.12);color:#10B981">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/>
+                    </svg>
+                </div>
+                <h3 class="lang-text" data-id="Aplikasi Mobile" data-en="Mobile Application">Aplikasi Mobile</h3>
+                <p class="lang-text"
+                    data-id="Aplikasi mobile Android dan iOS yang intuitif dan powerful untuk menjangkau pelanggan Anda di mana pun mereka berada."
+                    data-en="Intuitive and powerful Android and iOS mobile applications to reach your customers wherever they are.">
+                    Aplikasi mobile Android dan iOS yang intuitif dan powerful untuk menjangkau pelanggan Anda di mana pun mereka berada.
+                </p>
+                <ul class="service-features">
+                    <li>Android App</li><li>iOS App</li><li>Cross-Platform</li><li>Mobile Commerce</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal" style="--card-accent:#8B5CF6">
+                <div class="service-icon" style="background:rgba(139,92,246,0.12);color:#8B5CF6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                        <path d="M3 5v14a9 3 0 0018 0V5"/><path d="M3 12a9 3 0 0018 0"/>
+                    </svg>
+                </div>
+                <h3 class="lang-text" data-id="Database &amp; API" data-en="Database &amp; API">Database &amp; API</h3>
+                <p class="lang-text"
+                    data-id="Desain dan implementasi database yang optimal serta pengembangan REST API untuk integrasi sistem yang seamless."
+                    data-en="Optimal database design and implementation, plus REST API development for seamless system integration.">
+                    Desain dan implementasi database yang optimal serta pengembangan REST API untuk integrasi sistem yang seamless.
+                </p>
+                <ul class="service-features">
+                    <li>Database Design</li><li>REST API</li><li>Data Migration</li><li>System Integration</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal" style="--card-accent:#EC4899">
+                <div class="service-icon" style="background:rgba(236,72,153,0.12);color:#EC4899">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                </div>
+                <h3 class="lang-text" data-id="Maintenance &amp; Support" data-en="Maintenance &amp; Support">Maintenance &amp; Support</h3>
+                <p class="lang-text"
+                    data-id="Layanan pemeliharaan dan dukungan teknis berkelanjutan untuk memastikan sistem Anda selalu berjalan optimal."
+                    data-en="Ongoing maintenance and technical support services to ensure your systems always run optimally.">
+                    Layanan pemeliharaan dan dukungan teknis berkelanjutan untuk memastikan sistem Anda selalu berjalan optimal.
+                </p>
+                <ul class="service-features">
+                    <li>Bug Fixing</li><li>Performance Tuning</li><li>Security Update</li><li>24/7 Support</li>
+                </ul>
+            </div>
+
+            <div class="service-card reveal" style="--card-accent:#0EA5E9">
+                <div class="service-icon" style="background:rgba(14,165,233,0.12);color:#0EA5E9">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+                    </svg>
+                </div>
+                <h3 class="lang-text" data-id="Konsultasi IT" data-en="IT Consulting">Konsultasi IT</h3>
+                <p class="lang-text"
+                    data-id="Konsultasi teknologi untuk membantu Anda memilih solusi yang tepat, merencanakan arsitektur sistem, dan meminimalkan risiko implementasi."
+                    data-en="Technology consulting to help you choose the right solution, plan system architecture, and minimize implementation risks.">
+                    Konsultasi teknologi untuk membantu Anda memilih solusi yang tepat, merencanakan arsitektur sistem, dan meminimalkan risiko implementasi.
+                </p>
+                <ul class="service-features">
+                    <li>Tech Assessment</li><li>Architecture Planning</li><li>Digital Transformation</li><li>Training</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ====== PORTFOLIO ====== -->
+<section class="section portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag lang-text" data-id="Portfolio Saya" data-en="My Portfolio">Portfolio Saya</span>
+            <h2 class="section-title lang-text" data-id="Proyek yang Pernah Saya Kerjakan" data-en="Projects I've Worked On">Proyek yang Pernah Saya Kerjakan</h2>
+            <p class="section-sub lang-text"
+                data-id="Beberapa proyek yang telah saya kerjakan untuk berbagai klien dari berbagai industri."
+                data-en="Some of the projects I have completed for various clients from different industries.">
+                Beberapa proyek yang telah saya kerjakan untuk berbagai klien dari berbagai industri.
+            </p>
+        </div>
+        <div class="portfolio-filter reveal">
+            <button class="filter-btn active lang-text" data-id="Semua" data-en="All" onclick="filterPortfolio('all',this)">Semua</button>
+            <button class="filter-btn lang-text" data-id="Aplikasi Web" data-en="Web App" onclick="filterPortfolio('web',this)">Aplikasi Web</button>
+            <button class="filter-btn lang-text" data-id="Aplikasi Kantor" data-en="Office App" onclick="filterPortfolio('office',this)">Aplikasi Kantor</button>
+            <button class="filter-btn lang-text" data-id="Mobile" data-en="Mobile" onclick="filterPortfolio('mobile',this)">Mobile</button>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+
+            <div class="portfolio-card reveal" data-category="office">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1E40AF,#60A5FA)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                        <path d="M9 22V12h6v10"/><circle cx="12" cy="5" r="1"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Aplikasi Kantor" data-en="Office App">Aplikasi Kantor</span>
+                    <h3 class="lang-text" data-id="Sistem Koperasi Online" data-en="Online Cooperative System">Sistem Koperasi Online</h3>
+                    <p class="lang-text"
+                        data-id="Manajemen koperasi digital: simpan pinjam, data anggota, laporan keuangan, dan transaksi online yang terintegrasi."
+                        data-en="Digital cooperative management: savings &amp; loans, member data, financial reports, and integrated online transactions.">
+                        Manajemen koperasi digital: simpan pinjam, data anggota, laporan keuangan, dan transaksi online yang terintegrasi.
+                    </p>
+                    <div class="p-tags"><span>PHP</span><span>MySQL</span><span>Vue.js</span></div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal" data-category="web">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#7C3AED,#A78BFA)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Aplikasi Web" data-en="Web App">Aplikasi Web</span>
+                    <h3 class="lang-text" data-id="Platform E-Commerce" data-en="E-Commerce Platform">Platform E-Commerce</h3>
+                    <p class="lang-text"
+                        data-id="Platform belanja online dengan manajemen produk, keranjang, pembayaran online, dan laporan penjualan."
+                        data-en="Online shopping platform with product management, cart, online payment, and sales reports.">
+                        Platform belanja online dengan manajemen produk, keranjang, pembayaran online, dan laporan penjualan.
+                    </p>
+                    <div class="p-tags"><span>Laravel</span><span>React</span><span>PostgreSQL</span></div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal" data-category="office">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#059669,#34D399)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/>
+                        <path d="M16 3H8a2 2 0 00-2 2v2h12V5a2 2 0 00-2-2z"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Aplikasi Kantor" data-en="Office App">Aplikasi Kantor</span>
+                    <h3 class="lang-text" data-id="Sistem Inventory &amp; Gudang" data-en="Inventory &amp; Warehouse System">Sistem Inventory &amp; Gudang</h3>
+                    <p class="lang-text"
+                        data-id="Manajemen stok real-time, laporan keluar-masuk, barcode scanner, dan notifikasi stok menipis."
+                        data-en="Real-time stock management, in-out reports, barcode scanner, and low stock notifications.">
+                        Manajemen stok real-time, laporan keluar-masuk, barcode scanner, dan notifikasi stok menipis.
+                    </p>
+                    <div class="p-tags"><span>Python</span><span>Django</span><span>SQLite</span></div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal" data-category="web">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0891B2,#67E8F9)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Aplikasi Web" data-en="Web App">Aplikasi Web</span>
+                    <h3 class="lang-text" data-id="Platform Jasa Pariwisata" data-en="Tourism Service Platform">Platform Jasa Pariwisata</h3>
+                    <p class="lang-text"
+                        data-id="Platform booking wisata online: paket tour, hotel, pemandu wisata, ulasan, dan pembayaran digital yang mudah."
+                        data-en="Online tourism booking platform: tour packages, hotels, tour guides, reviews, and easy digital payments.">
+                        Platform booking wisata online: paket tour, hotel, pemandu wisata, ulasan, dan pembayaran digital yang mudah.
+                    </p>
+                    <div class="p-tags"><span>Laravel</span><span>Vue.js</span><span>MySQL</span></div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal" data-category="office">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0284C7,#38BDF8)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Aplikasi Kantor" data-en="Office App">Aplikasi Kantor</span>
+                    <h3 class="lang-text" data-id="Sistem Manajemen Agen Asuransi" data-en="Insurance Agent Management System">Sistem Manajemen Agen Asuransi</h3>
+                    <p class="lang-text"
+                        data-id="Kelola data nasabah, polis, premi, klaim, dan komisi agen dalam satu sistem yang terintegrasi dan mudah diakses."
+                        data-en="Manage customer data, policies, premiums, claims, and agent commissions in one integrated and easy-to-access system.">
+                        Kelola data nasabah, polis, premi, klaim, dan komisi agen dalam satu sistem yang terintegrasi dan mudah diakses.
+                    </p>
+                    <div class="p-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal" data-category="web">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#4F46E5,#818CF8)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <path d="M21.21 15.89A10 10 0 118 2.83"/>
+                        <path d="M22 12A10 10 0 0012 2v10z"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Aplikasi Web" data-en="Web App">Aplikasi Web</span>
+                    <h3 class="lang-text" data-id="Platform Agen Asuransi" data-en="Insurance Agent Platform">Platform Agen Asuransi</h3>
+                    <p class="lang-text"
+                        data-id="Portal web untuk agen asuransi: pengelolaan leads, presentasi produk digital, perhitungan premi otomatis, dan tracking komisi."
+                        data-en="Web portal for insurance agents: lead management, digital product presentations, automatic premium calculation, and commission tracking.">
+                        Portal web untuk agen asuransi: pengelolaan leads, presentasi produk digital, perhitungan premi otomatis, dan tracking komisi.
+                    </p>
+                    <div class="p-tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal" data-category="mobile">
+                <div class="portfolio-thumb" style="background:linear-gradient(135deg,#DB2777,#F9A8D4)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="52" height="52">
+                        <rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
+                    </svg>
+                </div>
+                <div class="portfolio-body">
+                    <span class="p-cat lang-text" data-id="Mobile" data-en="Mobile">Mobile</span>
+                    <h3 class="lang-text" data-id="Aplikasi Absensi Mobile" data-en="Mobile Attendance App">Aplikasi Absensi Mobile</h3>
+                    <p class="lang-text"
+                        data-id="Absensi karyawan berbasis GPS dan face recognition untuk memastikan akurasi data kehadiran."
+                        data-en="Employee attendance app based on GPS and face recognition to ensure accurate attendance data.">
+                        Absensi karyawan berbasis GPS dan face recognition untuk memastikan akurasi data kehadiran.
+                    </p>
+                    <div class="p-tags"><span>Flutter</span><span>Firebase</span><span>TensorFlow</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ====== PRICING ====== -->
+<section class="section pricing" id="pricing">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag lang-text" data-id="Harga" data-en="Pricing">Harga</span>
+            <h2 class="section-title lang-text" data-id="Paket Layanan Saya" data-en="My Service Packages">Paket Layanan Saya</h2>
+            <p class="section-sub lang-text"
+                data-id="Pilih paket yang sesuai dengan kebutuhan dan anggaran bisnis Anda. Atau hubungi saya untuk solusi custom."
+                data-en="Choose the package that suits your business needs and budget. Or reach out to me for a custom solution.">
+                Pilih paket yang sesuai dengan kebutuhan dan anggaran bisnis Anda. Atau hubungi saya untuk solusi custom.
+            </p>
+        </div>
+        <div class="pricing-grid">
+
+            <div class="pricing-card reveal">
+                <div class="pricing-head">
+                    <p class="tier-name">Starter</p>
+                    <div class="price-wrap">
+                        <span class="price-cur">Rp</span>
+                        <span class="price-val">3 Juta</span>
+                    </div>
+                    <p class="price-sub lang-text" data-id="Mulai dari" data-en="Starting from">Mulai dari</p>
+                </div>
+                <ul class="price-list">
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Company Profile / Landing Page" data-en="Company Profile / Landing Page">Company Profile / Landing Page</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Desain Responsif (Mobile-friendly)" data-en="Responsive Design (Mobile-friendly)">Desain Responsif (Mobile-friendly)</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Integrasi WhatsApp &amp; Form Kontak" data-en="WhatsApp &amp; Contact Form Integration">Integrasi WhatsApp &amp; Form Kontak</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="SEO Dasar" data-en="Basic SEO">SEO Dasar</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="1 Bulan Garansi" data-en="1 Month Warranty">1 Bulan Garansi</span></li>
+                    <li class="off"><span class="chk">✗</span><span class="lang-text" data-id="Panel Admin" data-en="Admin Panel">Panel Admin</span></li>
+                    <li class="off"><span class="chk">✗</span><span class="lang-text" data-id="Fitur Custom" data-en="Custom Features">Fitur Custom</span></li>
+                </ul>
+                <a href="#contact" class="btn btn-outline btn-block lang-text" data-id="Pilih Paket Ini" data-en="Choose This Package">Pilih Paket Ini</a>
+            </div>
+
+            <div class="pricing-card featured reveal">
+                <div class="popular-tag lang-text" data-id="Paling Populer" data-en="Most Popular">Paling Populer</div>
+                <div class="pricing-head">
+                    <p class="tier-name">Professional</p>
+                    <div class="price-wrap">
+                        <span class="price-cur">Rp</span>
+                        <span class="price-val">15 Juta</span>
+                    </div>
+                    <p class="price-sub lang-text" data-id="Mulai dari" data-en="Starting from">Mulai dari</p>
+                </div>
+                <ul class="price-list">
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Aplikasi Web / Kantor Lengkap" data-en="Complete Web / Office Application">Aplikasi Web / Kantor Lengkap</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Panel Admin &amp; Dashboard" data-en="Admin Panel &amp; Dashboard">Panel Admin &amp; Dashboard</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Database &amp; Integrasi API" data-en="Database &amp; API Integration">Database &amp; Integrasi API</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Multi-user &amp; Role Management" data-en="Multi-user &amp; Role Management">Multi-user &amp; Role Management</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Laporan &amp; Export Excel/PDF" data-en="Reports &amp; Export Excel/PDF">Laporan &amp; Export Excel/PDF</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="3 Bulan Garansi &amp; Support" data-en="3 Month Warranty &amp; Support">3 Bulan Garansi &amp; Support</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Training Penggunaan" data-en="Usage Training">Training Penggunaan</span></li>
+                </ul>
+                <a href="#contact" class="btn btn-white btn-block lang-text" data-id="Pilih Paket Ini" data-en="Choose This Package">Pilih Paket Ini</a>
+            </div>
+
+            <div class="pricing-card reveal">
+                <div class="pricing-head">
+                    <p class="tier-name">Enterprise</p>
+                    <div class="price-wrap">
+                        <span class="price-val lang-text" data-id="Custom" data-en="Custom">Custom</span>
+                    </div>
+                    <p class="price-sub lang-text" data-id="Sesuai kebutuhan Anda" data-en="As per your requirements">Sesuai kebutuhan Anda</p>
+                </div>
+                <ul class="price-list">
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Semua fitur Professional" data-en="All Professional features">Semua fitur Professional</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Arsitektur Microservices / Cloud" data-en="Microservices / Cloud Architecture">Arsitektur Microservices / Cloud</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Integrasi Sistem Existing" data-en="Existing System Integration">Integrasi Sistem Existing</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Keamanan &amp; Audit Trail" data-en="Security &amp; Audit Trail">Keamanan &amp; Audit Trail</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Dedicated Support Tim" data-en="Dedicated Support Team">Dedicated Support Tim</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="SLA &amp; Kontrak Maintenance" data-en="SLA &amp; Maintenance Contract">SLA &amp; Kontrak Maintenance</span></li>
+                    <li><span class="chk ok">✓</span><span class="lang-text" data-id="Solusi Scalable" data-en="Scalable Solution">Solusi Scalable</span></li>
+                </ul>
+                <a href="#contact" class="btn btn-outline btn-block lang-text" data-id="Hubungi Kami" data-en="Contact Us">Hubungi Kami</a>
+            </div>
+
+        </div>
+        <p class="pricing-note reveal lang-text"
+            data-id="* Harga dapat bervariasi tergantung kompleksitas dan kebutuhan spesifik proyek. Konsultasikan kebutuhan Anda untuk mendapatkan penawaran terbaik."
+            data-en="* Prices may vary depending on project complexity and specific requirements. Contact us to get the best offer for your needs.">
+            * Harga dapat bervariasi tergantung kompleksitas dan kebutuhan spesifik proyek. Konsultasikan kebutuhan Anda untuk mendapatkan penawaran terbaik.
+        </p>
+    </div>
+</section>
+
+<!-- ====== CONTACT ====== -->
+<section class="section contact" id="contact">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag lang-text" data-id="Kontak" data-en="Contact">Kontak</span>
+            <h2 class="section-title lang-text" data-id="Hubungi Saya Langsung" data-en="Get in Touch With Me">Hubungi Saya Langsung</h2>
+            <p class="section-sub lang-text"
+                data-id="Ceritakan kebutuhan Anda kepada saya dan saya akan bantu mewujudkan solusi terbaik untuk bisnis Anda."
+                data-en="Tell me about your needs and I will help create the best solution for your business.">
+                Ceritakan kebutuhan Anda kepada saya dan saya akan bantu mewujudkan solusi terbaik untuk bisnis Anda.
+            </p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.76 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 013.68 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.91 7.91a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/6282213792865" target="_blank" rel="noopener">+62 822-1379-2865</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:info@suarteknologi.id">info@suarteknologi.id</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="lang-text" data-id="Lokasi" data-en="Location">Lokasi</h4>
+                        <p class="lang-text" data-id="Indonesia (Melayani seluruh wilayah)" data-en="Indonesia (Serving all regions)">Indonesia (Melayani seluruh wilayah)</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/6282213792865?text=Halo%20Suar%20Teknologi%20Inovasi%2C%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20aplikasi."
+                   target="_blank" rel="noopener" class="btn btn-wa btn-lg">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    <span class="lang-text" data-id="Chat via WhatsApp" data-en="Chat via WhatsApp">Chat via WhatsApp</span>
+                </a>
+            </div>
+
+            <div class="contact-form-wrap reveal">
+                <form id="contactForm" onsubmit="submitForm(event)" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="lang-text" data-id="Nama Lengkap" data-en="Full Name">Nama Lengkap</label>
+                            <input type="text" id="fName"
+                                class="lang-placeholder"
+                                data-placeholder-id="Masukkan nama Anda"
+                                data-placeholder-en="Enter your name"
+                                placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="lang-text" data-id="Email / WhatsApp" data-en="Email / WhatsApp">Email / WhatsApp</label>
+                            <input type="text" id="fContact"
+                                class="lang-placeholder"
+                                data-placeholder-id="Email atau nomor WhatsApp"
+                                data-placeholder-en="Email or WhatsApp number"
+                                placeholder="Email atau nomor WhatsApp" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="lang-text" data-id="Jenis Layanan" data-en="Service Type">Jenis Layanan</label>
+                        <select id="fService">
+                            <option value="" class="lang-text" data-id="-- Pilih Layanan --" data-en="-- Select Service --">-- Pilih Layanan --</option>
+                            <option value="web" class="lang-text" data-id="Aplikasi Web" data-en="Web Application">Aplikasi Web</option>
+                            <option value="office" class="lang-text" data-id="Aplikasi Kantor" data-en="Office Application">Aplikasi Kantor</option>
+                            <option value="mobile" class="lang-text" data-id="Aplikasi Mobile" data-en="Mobile Application">Aplikasi Mobile</option>
+                            <option value="consult" class="lang-text" data-id="Konsultasi IT" data-en="IT Consulting">Konsultasi IT</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="lang-text" data-id="Deskripsi Proyek" data-en="Project Description">Deskripsi Proyek</label>
+                        <textarea id="fMessage" rows="4"
+                            class="lang-placeholder"
+                            data-placeholder-id="Ceritakan kebutuhan proyek Anda..."
+                            data-placeholder-en="Tell us about your project needs..."
+                            placeholder="Ceritakan kebutuhan proyek Anda..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block lang-text" data-id="Kirim via WhatsApp" data-en="Send via WhatsApp">Kirim via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo-box">
+                    <img src="logo.png" alt="Suar Teknologi Inovasi" class="footer-logo">
+                </div>
+                <p class="lang-text"
+                    data-id="Saya siap membantu bisnis Anda tumbuh dengan solusi teknologi yang tepat, berkualitas, dan sesuai anggaran."
+                    data-en="I'm ready to help your business grow with the right, quality technology solutions that fit your budget.">
+                    Saya siap membantu bisnis Anda tumbuh dengan solusi teknologi yang tepat, berkualitas, dan sesuai anggaran.
+                </p>
+                <a href="https://wa.me/6282213792865" class="footer-contact" target="_blank" rel="noopener">+62 822-1379-2865</a>
+            </div>
+            <div class="footer-nav">
+                <h4 class="lang-text" data-id="Layanan" data-en="Services">Layanan</h4>
+                <ul>
+                    <li><a href="#services" class="lang-text" data-id="Aplikasi Web" data-en="Web Application">Aplikasi Web</a></li>
+                    <li><a href="#services" class="lang-text" data-id="Aplikasi Kantor" data-en="Office Application">Aplikasi Kantor</a></li>
+                    <li><a href="#services" class="lang-text" data-id="Aplikasi Mobile" data-en="Mobile Application">Aplikasi Mobile</a></li>
+                    <li><a href="#services" class="lang-text" data-id="Konsultasi IT" data-en="IT Consulting">Konsultasi IT</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h4 class="lang-text" data-id="Navigasi" data-en="Navigation">Navigasi</h4>
+                <ul>
+                    <li><a href="#home" class="lang-text" data-id="Beranda" data-en="Home">Beranda</a></li>
+                    <li><a href="#portfolio" class="lang-text" data-id="Portfolio" data-en="Portfolio">Portfolio</a></li>
+                    <li><a href="#pricing" class="lang-text" data-id="Harga" data-en="Pricing">Harga</a></li>
+                    <li><a href="#contact" class="lang-text" data-id="Kontak" data-en="Contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Suar Teknologi Inovasi. <span class="lang-text" data-id="Hak cipta dilindungi." data-en="All rights reserved.">Hak cipta dilindungi.</span></p>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/6282213792865?text=Halo%20Suar%20Teknologi%20Inovasi%2C%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20aplikasi."
+   target="_blank" rel="noopener" class="wa-float" id="waFloat" title="Chat WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="30" height="30">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
